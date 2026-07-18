@@ -63,11 +63,11 @@ Das Skript erzeugt automatisch:
 
 | Kennzahl | Wert | Einheit |
 |---|---|---|
-| Wind Hamburg — gesamt | 4.724,8 | MWh |
-| PV Darmstadt — gesamt | 2.406,6 | MWh |
-| PV + Wind Dresden — gesamt | 6.828,6 | MWh |
+| Wind Hamburg — gesamt | 4724,8 | MWh |
+| PV Darmstadt — gesamt | 2406,6 | MWh |
+| PV + Wind Dresden — gesamt | 6828,6 | MWh |
 | Gas — gesamt | 685,4 | MWh |
-| Gesamtverbrauch (alle Städte) | 23.652,0 | MWh |
+| Gesamtverbrauch (alle Städte) | 23652,0 | MWh |
 | Gesamtkosten Gas | 34,3 | K€ |
 
 Erneuerbare Energie (Wind + PV) deckt zusammen etwa **60%** des
