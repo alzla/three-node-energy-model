@@ -54,10 +54,9 @@ python three_node_epex.py
 ```
 
 Das Skript erzeugt automatisch:
-- `battery_soc.png` — Ladezustand der Batterie (Winter- und Sommerwoche)
-- `network_flow_diagram.png` — mittlere Leistungsflüsse im Netzwerk
-- `link_utilization.png` — durchschnittliche Auslastung jeder Leitung
-- `summary_results.csv` — Zusammenfassung der wichtigsten Kennzahlen
+- `results/network_flow_diagram.png` — mittlere Leistungsflüsse im Netzwerk
+- `results/link_utilization.png` — durchschnittliche Auslastung jeder Leitung
+- `results/summary_results.csv` — Zusammenfassung der wichtigsten Kennzahlen
 
 ## Ergebnisse (Jahr 2019)
 
@@ -76,7 +75,7 @@ Gesamtverbrauchs. Der Rest kommt größtenteils über den Import-Knoten
 
 ### Monatliche Erzeugung
 
-![Monatliche Erzeugung](month_gen.png)
+![Monatliche Erzeugung](results/month_gen.png)
 
 Wind Hamburg liefert das ganze Jahr über relativ konstant Strom. Dresden
 (PV + Wind kombiniert) hat die höchste Erzeugung, besonders im Frühjahr
@@ -86,7 +85,7 @@ PV-Erzeugung.
 
 ### Leitungsauslastung
 
-![Leitungsauslastung](link_utilization.png)
+![Leitungsauslastung](results/link_utilization.png)
 
 Die Stadt-zu-Stadt-Leitungen sind stark ausgelastet: **DA↔DD mit 85,5%**
 und **HA↔DA mit 83,2%** — der Strom aus Hamburg und Dresden wird also
@@ -96,7 +95,7 @@ Die Import-Leitungen liegen bei 26–42%.
 
 ### Leistungsflüsse im Netzwerk
 
-![Netzwerk Flüsse](network_flow_diagram.png)
+![Netzwerk Flüsse](results/network_flow_diagram.png)
 
 Der größte durchschnittliche Fluss ist **Import → Dresden (0,42 MW)**,
 gefolgt von **Darmstadt → Hamburg (0,36 MW)**. Das zeigt: Dresden braucht
