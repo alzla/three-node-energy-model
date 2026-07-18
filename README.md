@@ -23,7 +23,7 @@ Alle Wetter- und Preisdaten kommen aus 2019 und liegen als CSV-Dateien vor:
 | `pv_da.csv` | PV-Leistung Darmstadt (renewables.ninja) |
 | `pv_dd.csv` | PV-Leistung Dresden (renewables.ninja) |
 | `wind_dd.csv` | Windleistung Dresden (renewables.ninja) |
-| `epex_de_2019_hourly.csv` | Stündliche Strompreise EPEX Deutschland (€/MWh) |
+| `epex_de_2019_hourly.csv` | Stündliche Day-Ahead-Strompreise Deutschland, Bidding Zone DE-LU (ENTSO-E Transparency Platform) |
 
 Die Rohdaten (in kW) werden im Skript normiert (`p_max_pu`, Wert zwischen 0
 und 1), damit sie zur installierten Leistung (`p_nom`) jedes Generators
