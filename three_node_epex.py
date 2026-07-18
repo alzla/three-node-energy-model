@@ -265,32 +265,7 @@ for container in ax1.containers:
 
 plt.tight_layout()
 
-
-# --- 2. Battery Darmstadt state-of-charge time series (Winter + Sommerwoche) ---
-soc = n.storage_units_t.state_of_charge['Battery_DA']
-
-winter_week = soc.loc['2019-01-14':'2019-01-20']
-summer_week = soc.loc['2019-07-15':'2019-07-21']
-
-fig, axes = plt.subplots(2, 1, figsize=(12, 8), sharey=True)
-
-axes[0].plot(winter_week.index, winter_week.values, color='tab:blue')
-axes[0].set_title('Battery Darmstadt SOC — Winterwoche (14.–20. Januar)')
-axes[0].set_ylabel('State of Charge (MWh)')
-axes[0].grid(True, alpha=0.3)
-
-axes[1].plot(summer_week.index, summer_week.values, color='tab:orange')
-axes[1].set_title('Battery Darmstadt SOC — Sommerwoche (15.–21. Juli)')
-axes[1].set_ylabel('State of Charge (MWh)')
-axes[1].set_xlabel('Zeit')
-axes[1].grid(True, alpha=0.3)
-
-plt.tight_layout()
-plt.savefig('results/battery_soc.png', dpi=150)
-plt.show()
-
-
-# --- 3. Netzwerkdiagramm der mittleren Leistungsflüsse ---
+# --- 2. Netzwerkdiagramm der mittleren Leistungsflüsse ---
 
 link_names = [
     'HA-DA', 'HA-DD', 'DA-DD',
@@ -382,7 +357,7 @@ plt.savefig('results/network_flow_diagram.png', dpi=300)
 plt.show()
 
 
-# --- 4. Link utilization bar chart ---
+# --- 3. Link utilization bar chart ---
 link_labels = ['Gas→HA','Gas→DA','Gas→DD','HA↔DA','HA↔DD','DA↔DD','Import→HA','Import→DA','Import→DD']
 
 p_noms = [0.5, 0.5, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
