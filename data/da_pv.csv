@@ -1,6 +1,4 @@
-# Renewables.ninja Solar photovoltaic power (PV) (Point API) - 49.870, 8.650 - Version: 1.4 (gsee f9b6961) - License: https://creativecommons.org/licenses/by-nc/4.0/ - Reference: https://doi.org/10.1016/j.energy.2016.08.060
-# Units: time in UTC, electricity in kW
-# {"units": {"time": "UTC", "electricity": "kW"}, "params": {"lat": "49.87", "lon": "8.65", "date_from": "2019-01-01", "date_to": "2019-12-31", "dataset": "merra2", "header": "true", "local_time": "false", "capacity": "2000", "system_loss": "0.1", "tracking": "0", "tilt": "35", "azim": "180", "raw": "false"}}
+
 time,electricity
 2019-01-01 00:00,0
 2019-01-01 01:00,0
