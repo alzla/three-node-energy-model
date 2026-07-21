@@ -1,6 +1,4 @@
-# Renewables.ninja Wind power (Point API) - 51.049, 13.739 - Version: 1.4 - License: https://creativecommons.org/licenses/by-nc/4.0/ - Reference: https://doi.org/10.1016/j.energy.2016.08.068
-# Units: time in UTC, electricity in kW
-# {"units": {"time": "UTC", "electricity": "kW"}, "params": {"lat": "51.04918760416288", "lon": "13.738869045636335", "date_from": "2019-01-01", "date_to": "2019-12-31", "dataset": "merra2", "header": "true", "local_time": "false", "capacity": "2000", "height": "80", "turbine": "Vestas V90 2000", "raw": "false"}}
+
 time,electricity
 2019-01-01 00:00,655.452
 2019-01-01 01:00,693.157
